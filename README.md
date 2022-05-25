@@ -7,7 +7,7 @@
 * Simple truth or dare game 
 * /truth and start the game
 * Random direction
-* (Sync) Sometimes, it not stop at the same time
+* (Sync) Sometimes the bottle not stop at the same time for everyone
 
 ## How to use
 + server.cfg ```ensure um-truthordare```
