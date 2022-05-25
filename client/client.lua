@@ -7,7 +7,7 @@ end)
 
 RegisterNetEvent("um-truthordare:client:rotate", function(x,y,z,number)
   local prop = CreateObject(GetHashKey('prop_bottle_macbeth'),x,y,z, false, false, true)
-  local rot = vector3(x,y - 25,z)
+  local rot = vector3(x,y - 100 ,z)
   local coords = GetEntityCoords(prop)
   FreezeEntityPosition(prop,true)
   SetEntityRotation(prop, rot, false, true)
