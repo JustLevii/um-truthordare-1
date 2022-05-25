@@ -1,4 +1,3 @@
-
 RegisterCommand("truth", function()
   local ped = PlayerPedId()
   local coords = GetEntityCoords(ped)
