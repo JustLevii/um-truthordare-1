@@ -14,9 +14,9 @@ RegisterNetEvent("um-truthordare:client:rotate", function(x,y,z,number)
   PlaceObjectOnGroundProperly(prop)
   SetModelAsNoLongerNeeded(prop)
     for i=1,number do 
-        max = i 
-        rot3 = vector3(rot.x, rot.y, max)
-        Wait(1)
-        SetEntityRotation(prop, rot3, false, true)
+     max = i 
+     rot3 = vector3(rot.x, rot.y, max)
+     Wait(1)
+     SetEntityRotation(prop, rot3, false, true)
       end 
 end)
